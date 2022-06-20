@@ -1,0 +1,50 @@
+.container-5 {
+    justify-content: center;
+    border: 3px solid black;
+    width: 75%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.container-5 h1{
+    margin: 15px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('https://images.unsplash.com/photo-1617957718645-7680362d6312?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80') center;
+    color: #fff;
+}
+
+.flex-blackjack-row-1 div{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
